@@ -53,7 +53,24 @@ The `frontend` service is configured with a `BACKEND_URL` environment variable p
 
 ## Running the App
 
-From the project root, run:
+> **Prerequisites:** Docker Desktop must be installed and **open and running** before proceeding — `docker-compose` requires the Docker daemon to be active. ([Get Docker Desktop](https://docs.docker.com/get-docker/))
+
+No Python environment or dependency installation is required — everything runs inside the containers.
+
+**If you've cloned the repo**, navigate to the `app` directory:
+
+```bash
+cd app
+```
+
+**If you're starting from the `.tar` archive**, download `linguistic_markers_app.tar` from the repository root, extract it, and navigate into the `app` directory:
+
+```bash
+tar -xvf linguistic_markers_app.tar
+cd app
+```
+
+**Either way**, build and start the services:
 
 ```bash
 docker-compose up --build
@@ -69,55 +86,6 @@ To stop the services:
 ```bash
 docker-compose down
 ```
-
----
-
-## Sharing with Peers (via `.tar`)
-
-The project is distributed as a `.tar` archive. To get it running:
-
-> **Prerequisites:** Peers will need [Docker Desktop](https://docs.docker.com/get-docker/) installed. No Python environment or dependency installation is required — everything runs inside the containers.
-
-**1. Download the archive**
-
-Download the `linguistic_markers_app.tar` file from the repository root.
-
-**2. Extract the archive**
-
-```bash
-tar -xvf linguistic_markers_app.tar
-```
-
-This will extract the contents into a folder. The `Dockerfile` and `docker-compose.yml` are located inside the `app/` subdirectory.
-
-**3. Open Docker Desktop**
-
-Make sure Docker Desktop is open and running before proceeding — the `docker-compose` command requires the Docker daemon to be active.
-
-**4. Navigate into the `app` directory**
-
-```bash
-cd linguistic_markers_app/app
-```
-
-**5. Build and start the services**
-
-```bash
-docker-compose up --build
-```
-
-**6. Open the app in your browser**
-
-Once the services are running, the app is accessible at:
-
-- **Frontend (Streamlit):** http://localhost:8501
-
-To stop the services:
-
-```bash
-docker-compose down
-```
-
 ---
 
 ## Things to Try
