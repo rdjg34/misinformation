@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository contains all code, data, documentation, and reports for the Misinformation group project. It was completed for COLX523 and COLX581 classes as part of the Master of Data Science - Computational Linguistics program at UBC. All credit for project origins to Garrett Nicolai at UBC. This is Rachelle's fork of the project, completed by Nicole Shantz, Shiao-li Green, Jennifer Flake, and Rachelle De Jager. Additional annotation support was provided by Jasmine Zheng.
+This repository contains all code, data, documentation, and reports for the Misinformation group project. It was completed for COLX523 and COLX581 classes as part of the Master of Data Science - Computational Linguistics program at UBC. All credit for project origins to Garrett Nicolai at UBC. The work was completed by Nicole Shantz, Shiao-li Green, Jennifer Flake, and Rachelle De Jager. Additional annotation support was provided by Jasmine Zheng.
 
 We investigated linguistic markers, including adjectives, capitalization, exclamation, hedging, and profanity, as signals for automated classification of misinformation and opinion in short social media and news items.
 
